@@ -14,8 +14,8 @@ var st3 = document.getElementById('pow');
 //extra
 as.addEventListener('mousemove', function color1() {
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    const randomColor1 = Math.floor(Math.random()*167227215).toString(10);
-    const randomColor2 = Math.floor(Math.random()*167237215).toString(11);
+    const randomColor1 = Math.floor(Math.random()*107227215).toString(10);
+    const randomColor2 = Math.floor(Math.random()*117237215).toString(11);
     st1.style.backgroundColor = "#" + randomColor;
     st2.style.backgroundColor = "#" + randomColor1;
     st3.style.backgroundColor = "#" + randomColor2;
